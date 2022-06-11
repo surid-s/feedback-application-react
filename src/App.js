@@ -1,11 +1,12 @@
+import FeedbackItem from "./components/FeedbackItem";
 import Header from "./components/Header";
 
 function App() {
     return (
         <>
-            <Header bgColor='red' textColor='blue' />
+            <Header />
             <div className="container">
-                <h1>Hello from the App</h1>
+                <FeedbackItem />
             </div>
         </>
     )
