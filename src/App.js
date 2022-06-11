@@ -3,7 +3,7 @@ import Header from "./components/Header";
 function App() {
     return (
         <>
-            <Header text={true} />
+            <Header bgColor='red' textColor='blue' />
             <div className="container">
                 <h1>Hello from the App</h1>
             </div>
